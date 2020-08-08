@@ -1,0 +1,31 @@
+body{
+margin:5px;
+background:rgb(255,239,0);
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+font-family: 'VT323', monospace;
+}
+.main{
+  display: flex;
+}
+.buttons{
+  display: flex;
+  width:160px;
+  align-content:flex-start;
+  flex-wrap:wrap;
+}
+button{
+  width:80px;
+ height:20px;
+}
+#header{
+  font-size: 35px;
+}
+#con{
+width :900px;
+height:600px;
+border: solid 1px;
+display:flex;
+flex-wrap: wrap;
+align-content:flex-start;
+Background: white;
+}
